@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_background">#FFFFFF</color>
+    <color name="item_border">#DDE3EA</color>
+    <color name="purple_500">#3F51B5</color>
+    <color name="screen_background">#F5F7FA</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#4B5563</color>
+    <string name="app_name">RecyclerView</string>
+    <string name="title_students">لیست دانشجوها</string>
+    <style name="Theme.RecyclerViewProject" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/screen_background</item>
+        <item name="android:navigationBarColor">@color/screen_background</item>
+    </style>
+</resources>

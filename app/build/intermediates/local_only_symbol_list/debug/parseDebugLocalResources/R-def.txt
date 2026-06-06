@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color item_background
+color item_border
+color purple_500
+color screen_background
+color text_primary
+color text_secondary
+drawable bg_student_item
+drawable ic_launcher
+drawable ic_launcher_foreground
+id codeTextView
+id majorTextView
+id nameTextView
+id recyclerView
+id titleTextView
+layout activity_main
+layout item_student
+string app_name
+string title_students
+style Theme.RecyclerViewProject
