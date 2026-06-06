@@ -1,0 +1,16 @@
+# Make GitHub Linguist show this Android assignment as Java.
+*.java linguist-language=Java
+
+# Android XML resources are not the main programming language of this project.
+app/src/main/res/**/*.xml linguist-generated=true
+app/src/main/AndroidManifest.xml linguist-generated=true
+
+# Build outputs must never affect repository language stats.
+build/** linguist-generated=true
+app/build/** linguist-generated=true
+.gradle/** linguist-generated=true
+
+# Wrapper scripts/config are support files.
+gradlew linguist-generated=true
+gradlew.bat linguist-generated=true
+gradle/wrapper/** linguist-generated=true
